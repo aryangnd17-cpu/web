@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Properties</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+            .box{
+                width: 133px;
+                height: 80px;
+                border: solid;
+                /* background-color: lightcoral; */
+                margin: 3px;
+                /* display: inline-block; */
+            }
+            .box1{
+                background-color: aqua;
+            }
+            .box2{
+                background-color: lightcoral;
+                position: relative;
+            }
+            .box3{
+                background-color: lightgreen;
+            }
+            .box4{
+                background-color: lightpink;
+            }
+
+    .container{
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        /* display: none; */
+        /* visibility: hidden; */
+        border: 1px solid black;
+    }
+    .t{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(140, 140, 189);
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 5px 15px 10px rgba(8, 204, 8, 0.5) ;
+        text-shadow: 5px 5px 5px rgba(35, 31, 57, 0.767);
+        /* display: none; */
+        /* visibility:; */
+        border: 1px solid rgb(61, 14, 14);
+    }
+    .para{
+        height: 200px;
+        width: 400px;
+        border: solid 5px black ;
+        overflow: auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="para">
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque doloremque accusantium, quaerat impedit autem hic modi dolores! Eligendi obcaecati vitae voluptatibus possimus cumque. Voluptatum reprehenderit expedita eos modi enim eveniet nam, quisquam id temporibus, explicabo, consequatur repellendus suscipit maxime dolorem distinctio. Incidunt voluptatibus voluptate dolores fugit blanditiis animi magnam quis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis ea adipisci nostrum illo. Modi doloremque quasi, aliquam quam distinctio repellendus maxime quas in veritatis?
+    </div>
+    <nav>
+        <ul>
+            <li> Home</li>
+            <li> About</li>
+            <li> Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        this is box
+    </div>
+    <div class="container">also a containor</div>
+    <div class="t">I am Aryan</div>
+</body>
+</html>
